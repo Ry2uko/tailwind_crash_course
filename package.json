@@ -1,0 +1,17 @@
+{
+  "name": "tailwind_crash_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 app.py",
+    "build": "tailwind -i ./static/css/styles.css -o ./static/css/styles_main.css",
+    "watch": "tailwind -i ./static/css/styles.css -o ./static/css/styles_main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
